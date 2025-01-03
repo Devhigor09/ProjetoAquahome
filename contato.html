@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato - AQUAHOME</title>
+
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            list-style: none;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f2f2f2;
+        }
+        
+        .background {
+            background: url('background.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 14%;
+            background-color: #ffffff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.35s ease;
+        }
+
+        .logo h1 {
+            font-size: 1.5rem;
+            color: #000;
+        }
+
+        .cabeçalho-link {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .cabeçalho-link a {
+            color: #111;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+
+        .cabeçalho-link a:hover {
+            color: #c8815f;
+        }
+
+        .formulario {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 150px auto;
+        }
+
+        .interface {
+            text-align: center;
+        }
+
+        .titulo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        form input[type="text"]:focus,
+        form textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        form textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        .btn-enviar {
+            text-align: center;
+        }
+
+        .btn-enviar input[type="submit"] {
+            padding: 12px 30px;
+            background-color: #c8815f;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border: none;
+        }
+
+        .btn-enviar input[type="submit"]:hover {
+            background-color: #c43d3d;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>AQUAHOME</h1>
+        </div>
+        <div class="cabeçalho-link">
+            <li><a href="e-commerce.html">Página Inicial</a></li>
+            <li><a href="login.html">Login</a></li>
+        </div>
+    </header>
+
+    <section class="formulario">
+        <div class="interface">
+            <h2 class="titulo">COMO PODEMOS AJUDAR?</h2>
+
+            <form action="">
+                <input type="text" placeholder="Seu Nome:" required>
+                <input type="text" placeholder="Seu E-mail:" required>
+                <input type="text" placeholder="Seu Celular:">
+                <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer style="background-color: #f0f0f0; padding: 20px; text-align: center;">
+        <p><strong>AquaHome - Transformando seu aquário em um oceano de vida </strong></p>
+        <p>Rua dos Oceanos, 123 - Centro, Uberlândia, MG - CEP: 01234-567</p>
+        <p>&copy; 2024 AQUAHOME. Todos os direitos reservados Higor Lima Cabral.</p>
+    </footer>
+
+
+</body>
+</html>
