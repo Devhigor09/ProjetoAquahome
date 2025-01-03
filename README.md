@@ -1,0 +1,2 @@
+# ProjetoAquahome
+ Aquahome é um projeto de e-commerce dedicado à venda de produtos e animais aquáticos, como peixes, crustáceos e acessórios para aquários. Desenvolvido com HTML, CSS e JavaScript, o projeto reflete a união de duas paixões: programação e aquarismo. Atualmente, conta com uma interface funcional e um carrinho de compras ativo. Em breve, será integrado a um banco de dados, utilizando PHP, para armazenar informações de produtos, clientes e pedidos. Também estão previstas melhorias na responsividade.
